@@ -1,0 +1,15 @@
+#square{
+    list-style-type: square;
+}
+
+#naastElkaar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+#naast1, #naast2 {
+    float: left;
+    
+  }
