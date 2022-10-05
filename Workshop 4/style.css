@@ -1,0 +1,22 @@
+table{
+    width: 100%;
+    font-family: arial;
+}
+
+.kop td{
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #c9c9c9;
+    font-weight: bold;
+}
+.blue td{
+    border: 1px solid black;
+    background-color: cadetblue;
+}
+
+#Scores{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: #c9c9c9;
+}

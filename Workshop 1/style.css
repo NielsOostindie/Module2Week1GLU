@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+section{
+    height: 100vh;
+    width: 100vw;
+}
+
 #infoSection{
     background-color: red;
 
@@ -28,6 +33,12 @@ body{
     width: 100px;
     border-radius: 50%;
 }
+
+#navbar{
+    position: sticky;
+    top: 0px;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
