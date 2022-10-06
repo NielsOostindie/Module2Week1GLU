@@ -73,5 +73,7 @@ label{
 }
 
 #verstuur{
-    align-items: ;
+    margin: auto 290px;
+    border-color: lime;
+    color: lime;
 }
