@@ -10,6 +10,7 @@
 </head>
 
 <body id="content">
+    <div id="container">
     <h1>Velden voor een HTML-formulier</h1>
     <form action="">
         <fieldset>
@@ -46,17 +47,20 @@
             <p><textarea name="opmerkingen" cols="25" rows="7"></textarea></p>
             <h2>Submit knop</h2>
             <p><input type="submit" value="Verzenden"></p>
-    </form>
+   
     </fieldset>
-
-    <fieldset>
-        <div id="berichtDIV">
+ </form>
+<form action="">
+    <div>
         <p><input type="text" name="voornaamBericht" id="voornaamBericht" placeholder="Voornaam *"></p>
         <p><input type="text" name="achternaamBericht" id="achternaamBericht" placeholder="Acheternaam*"></p>
         <p><input type="text" name="email" id="email" placeholder="E-mailadres*"></p>
         <p><input type="text" name="website" id="website" placeholder="Website*"></p>
+        <p><input type="text" name="bericht" id="bericht" placeholder="Bericht*"></p>
+        <p><input type="submit" name="verstuur" id="verstuur" value="verstuur"></p>
     </div>
-    </fieldset>
+</form>
+</div>
 </body>
 
 </html>
