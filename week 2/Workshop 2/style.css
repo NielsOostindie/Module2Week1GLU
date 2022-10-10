@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#PhotoTag{
+    font-size: 10px;
+}
+
+.recipe_details {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.7rem;
+	color: rgba(0, 0, 0, 0.9);
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.recipe_details ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+.recipe_details > ul > li > p {
+	padding: 0;
+}
+
+.details {
+	font-size: 0.6rem;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.recipe-card {
+	position: absolute;
+	width: 400px;
+	top: 5%;
+	left: 10%;
+	transform: translate(-10%, 0);
+	object-fit: contain;
+	box-shadow: -20px 60px 120px rgba(0, 0, 0, 0.3);
+	background: #fff;
+	border-radius: 3em;
+}
+
+.inner-recipe-card {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	padding: 3em;
+}
+
+.tomatoPhoto {
+    width: 350px;
+}
+
+.hero-recipe-img {
+    background: url("https://images.unsplash.com/photo-1593253787226-567eda4ad32d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2434&q=80");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -1,0 +1,79 @@
+#contaier{
+    width: 935px;
+    margin: 0px;
+}
+
+div{
+    border: 1px solid black;
+   margin: 10px;
+    padding: 10px;
+}
+
+#header{
+    width: 890px;
+    height: 100px;
+    content: cover;
+}
+
+#sidebar{
+    width: 180px;
+    height: 500px;
+    float: left;
+}
+
+#sidebarTop{
+    width: 140px;
+    height: 40px;
+
+}
+
+#sidebarTopLeft{
+    width: 50px;
+    height: 40px;
+}
+
+#sidebarTopRight{
+    width: 50px;
+    height: 40px;
+    float: right;
+    margin: -73px 9px;
+}
+
+#sidebarBottom{
+    height: 100px;
+}
+
+#content{
+    width: 670px;
+    height: 500px;
+    float: left;
+}
+
+#contentLeft{
+    width: 90px;
+    height: 90px;
+    float: left;
+}
+#contentRight{
+    width: 90px;
+    height: 90px;
+    float: right;
+}
+
+#footer{
+    width: 893px;
+    height: 50px;
+    clear: left;
+}
+
+#footerRight{
+    width: 90px;
+    height: 10px;
+    float: right;
+}
+
+img{
+max-width: 110%;
+max-height: 110%;
+margin: -10px;
+}
