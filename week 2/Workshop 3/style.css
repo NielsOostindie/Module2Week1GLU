@@ -1,0 +1,113 @@
+*{
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 31px;
+    margin: 0;
+    padding: 0;
+    color: darkblue;
+}
+
+#next{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+#cancel{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+#Deventer{
+    font-weight: 700;
+    font-size: 38px;
+}
+
+#LeftFrame{
+    display: inline-block;
+    width: 140px;
+    height: 340px;
+    border: 1px solid black;
+    background-color: darkblue;
+    margin-bottom: -28px;
+}
+
+#MainFrame{
+    display: inline-block;
+    width: 560px;
+    height: 340px;
+    border: 2px solid black;
+    background-color: darkblue;
+
+margin: 0px -5px;
+}
+#MainPlace{
+    width: 500px;
+    height: 175px;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: 30px;
+    vertical-align:top;
+    color: darkblue;
+}
+
+#MainTrain{
+    width: 250px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 280px;
+}
+
+#MainTime{
+    width: 250px;
+    height: 50px;
+    border: 2px solid black;
+    background-color: white;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+#MainNext{
+    width: 500px;
+    height: 35px;
+    float: bottom;
+    background-color: darkblue;
+    border: 2px solid black;
+    margin-left: 30px;
+}
+
+#MainCancel{
+    width: 500px;
+    height: 35px;
+    float: bottom;
+    border: 2px solid black;
+    background-color: darkblue;
+    margin-left: 30px;
+}
+
+#RightFrame{
+    width: 245px;
+    height: 340px;
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#logo{
+    height: 50px;
+    margin-top: -38px;
+    margin-left: 120px;
+}
+
+#klok{
+    height: 150px;
+    margin: 30px 50px;
+
+}
