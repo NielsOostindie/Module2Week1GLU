@@ -8,6 +8,45 @@ body {
     background-color: green;
 }
 
+#ruiten{
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:-38px;
+    top:-44px;
+}
+
+#schoppen{
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:-38px;
+    top:-44px;
+}
+
+#harten {
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:-38px;
+    top:-44px;
+}
+
+#klaveren {
+    position:absolute; 
+    left:-38px;
+    top:-44px;
+    width: 16px;
+    height: 16px;
+}
+
+#aRuiten{
+    color: red;
+    position:absolute; 
+    left: 4px; 
+    top: -25px;
+}
+
 #aSchoppen{
     position:absolute; 
     left: 4px; 
@@ -21,40 +60,23 @@ body {
     top: -25px;
 }
 
-#aHartenUpSideDown {
-    color: red;
-}
-
-#aRuiten{
-    color: red;
+#aKlaveren{
     position:absolute; 
-    left: 4px; 
-    top: -25px;
+    left:4px;
+    top:-25px;
 }
 
 #aRuitenUpSideDown{
-    color: red;
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
+    width: 16px;
+    height: 16px;
     position:absolute; 
     left:110px;
-    top:170px
-}
-
-.whiteCard {
-    position:relative;
-    border-radius: 5%;
-    width: 147px;
-    height: 206px;
-    background-color: white;
-}
-
-img {
-    width: 60px;
-    height: 64px;
-    margin: 70px 40px;
-}
-
-p {
-    font-size: 22px;
+    top:170px;
+    color: red;
 }
 
 #aSchoppenUpSideDown{
@@ -69,25 +91,6 @@ p {
     top:170px
 }
 
-#aRuitenUpSideDown{
-    display: inline-block;
-    margin: 1em;
-    transform: scale(-1, 1);
-    transform: scale(1, -1);
-    width: 16px;
-    height: 16px;
-    position:absolute; left:110px;top:170px
-}
-
-#aKlaverenUpSideDown {
-    display: inline-block;
-    margin: 1em;
-    transform: scale(-1, 1);
-    transform: scale(1, -1);
-    width: 16px;
-    height: 16px;
-}
-
 #aHartenUpSideDown {
     display: inline-block;
     margin: 1em;
@@ -97,16 +100,46 @@ p {
     height: 16px;
     position:absolute; 
     left:110px;
-    top:170px
+    top:170px;
+    color: red;
 }
 
-#ruiten{
+#aKlaverenUpSideDown {
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
     width: 16px;
     height: 16px;
     position:absolute; 
-    left:-38px;
-    top:-44px;
+    left:110px;
+    top:170px;
 }
+
+
+
+.whiteCard {
+    position:relative;
+    border-radius: 5%;
+    width: 147px;
+    height: 206px;
+    background-color: white;
+}
+
+
+
+img {
+    width: 60px;
+    height: 64px;
+    margin: 70px 40px;
+}
+
+
+
+p {
+    font-size: 22px;
+}
+
 
 #ruitenUpSideDown{
     display: inline-block;
@@ -121,13 +154,7 @@ p {
 
 }
 
-#schoppen{
-    width: 16px;
-    height: 16px;
-    position:absolute; 
-    left:-38px;
-    top:-44px;
-}
+
 
 #schoppenUpSideDown{
     display: inline-block;
@@ -141,13 +168,7 @@ p {
     top:145px;
 }
 
-#harten {
-    width: 16px;
-    height: 16px;
-    position:absolute; 
-    left:-38px;
-    top:-44px;
-}
+
 
 #hartenUpSideDown {
     display: inline-block;
@@ -161,10 +182,7 @@ p {
     top:145px;
 }
 
-#klaveren {
-    width: 16px;
-    height: 16px;
-}
+
 
 #klaverenUpSideDown {
     display: inline-block;
@@ -173,4 +191,7 @@ p {
     transform: scale(1, -1);
     width: 16px;
     height: 16px;
+    position:absolute; 
+    left:113px;
+    top:145px;
 }
