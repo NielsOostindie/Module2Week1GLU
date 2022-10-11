@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: green;
+}
+
+#aSchoppen{
+    position:absolute; 
+    left: 4px; 
+    top: -25px;
+}
+
+#aHarten {
+    color: red;
+    position:absolute; 
+    left: 4px; 
+    top: -25px;
+}
+
+#aHartenUpSideDown {
+    color: red;
+}
+
+#aRuiten{
+    color: red;
+    position:absolute; 
+    left: 4px; 
+    top: -25px;
+}
+
+#aRuitenUpSideDown{
+    color: red;
+    position:absolute; 
+    left:110px;
+    top:170px
+}
+
+.whiteCard {
+    position:relative;
+    border-radius: 5%;
+    width: 147px;
+    height: 206px;
+    background-color: white;
+}
+
+img {
+    width: 60px;
+    height: 64px;
+    margin: 70px 40px;
+}
+
+p {
+    font-size: 22px;
+}
+
+#aSchoppenUpSideDown{
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:110px;
+    top:170px
+}
+
+#aRuitenUpSideDown{
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
+    width: 16px;
+    height: 16px;
+    position:absolute; left:110px;top:170px
+}
+
+#aKlaverenUpSideDown {
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
+    width: 16px;
+    height: 16px;
+}
+
+#aHartenUpSideDown {
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:110px;
+    top:170px
+}
+
+#ruiten{
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:-38px;
+    top:-44px;
+}
+
+#ruitenUpSideDown{
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:113px;
+    top:145px
+
+}
+
+#schoppen{
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:-38px;
+    top:-44px;
+}
+
+#schoppenUpSideDown{
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:113px;
+    top:145px;
+}
+
+#harten {
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:-38px;
+    top:-44px;
+}
+
+#hartenUpSideDown {
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:113px;
+    top:145px;
+}
+
+#klaveren {
+    width: 16px;
+    height: 16px;
+}
+
+#klaverenUpSideDown {
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
+    width: 16px;
+    height: 16px;
+}
