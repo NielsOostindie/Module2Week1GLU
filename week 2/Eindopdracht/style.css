@@ -6,9 +6,44 @@
 
 body {
     background-color: green;
+    padding-top: 100px;
 }
 
-#ruiten{
+section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 10px auto;
+    padding: 10px 40px;
+    width: 60%;
+}
+
+.whiteCard:hover {
+    transform: scale(1.2);
+    margin-top: -100px;
+}
+
+#hartenCardA{
+    box-shadow: 2px 2px 5px 3px #555;
+}
+
+.klaverenCard{
+    margin: 0px -40px;
+}
+
+.hartenCard{
+    margin: 0px -40px;
+}
+
+.schoppenCard{
+    margin: 0px -40px;
+}
+
+.ruitenCard{
+    margin: 0px -40px;
+}
+
+.ruiten{
     width: 16px;
     height: 16px;
     position:absolute; 
@@ -16,7 +51,7 @@ body {
     top:-44px;
 }
 
-#schoppen{
+.schoppen{
     width: 16px;
     height: 16px;
     position:absolute; 
@@ -24,7 +59,7 @@ body {
     top:-44px;
 }
 
-#harten {
+.harten {
     width: 16px;
     height: 16px;
     position:absolute; 
@@ -32,7 +67,7 @@ body {
     top:-44px;
 }
 
-#klaveren {
+.klaveren {
     position:absolute; 
     left:-38px;
     top:-44px;
@@ -40,33 +75,33 @@ body {
     height: 16px;
 }
 
-#aRuiten{
+.aRuiten{
     color: red;
     position:absolute; 
     left: 4px; 
     top: -25px;
 }
 
-#aSchoppen{
+.aSchoppen{
     position:absolute; 
     left: 4px; 
     top: -25px;
 }
 
-#aHarten {
+.aHarten {
     color: red;
     position:absolute; 
     left: 4px; 
     top: -25px;
 }
 
-#aKlaveren{
+.aKlaveren{
     position:absolute; 
     left:4px;
     top:-25px;
 }
 
-#aRuitenUpSideDown{
+.aRuitenUpSideDown{
     display: inline-block;
     margin: 1em;
     transform: scale(-1, 1);
@@ -79,7 +114,7 @@ body {
     color: red;
 }
 
-#aSchoppenUpSideDown{
+.aSchoppenUpSideDown{
     display: inline-block;
     margin: 1em;
     transform: scale(-1, 1);
@@ -91,7 +126,7 @@ body {
     top:170px
 }
 
-#aHartenUpSideDown {
+.aHartenUpSideDown {
     display: inline-block;
     margin: 1em;
     transform: scale(-1, 1);
@@ -104,7 +139,7 @@ body {
     color: red;
 }
 
-#aKlaverenUpSideDown {
+.aKlaverenUpSideDown {
     display: inline-block;
     margin: 1em;
     transform: scale(-1, 1);
@@ -124,6 +159,8 @@ body {
     width: 147px;
     height: 206px;
     background-color: white;
+    box-shadow: 2px 2px 5px 3px #555;
+    transition: all .5s;
 }
 
 
@@ -134,14 +171,12 @@ img {
     margin: 70px 40px;
 }
 
-
-
 p {
     font-size: 22px;
 }
 
 
-#ruitenUpSideDown{
+.ruitenUpSideDown{
     display: inline-block;
     margin: 1em;
     transform: scale(-1, 1);
@@ -156,7 +191,7 @@ p {
 
 
 
-#schoppenUpSideDown{
+.schoppenUpSideDown{
     display: inline-block;
     margin: 1em;
     transform: scale(-1, 1);
@@ -170,7 +205,7 @@ p {
 
 
 
-#hartenUpSideDown {
+.hartenUpSideDown {
     display: inline-block;
     margin: 1em;
     transform: scale(-1, 1);
@@ -184,7 +219,7 @@ p {
 
 
 
-#klaverenUpSideDown {
+.klaverenUpSideDown {
     display: inline-block;
     margin: 1em;
     transform: scale(-1, 1);
