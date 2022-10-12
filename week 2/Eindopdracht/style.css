@@ -6,10 +6,19 @@
 
 body {
     background-color: green;
-    padding-top: 100px;
+}
+
+
+h1 a{
+    float: right;
+    font-size: 128px;
+    text-decoration: none;
+    color: white;
+    padding-right: 500px;
 }
 
 section {
+    clear: right;
     display: flex;
     justify-content: center;
     position: relative;
@@ -107,10 +116,11 @@ section {
     margin: 1em;
     transform: scale(-1, 1);
     transform: scale(1, -1);
+    transform: rotate(180deg);
     width: 16px;
     height: 16px;
     position:absolute; 
-    left:110px;
+    left:105px;
     top:170px;
     color: red;
 }
@@ -120,10 +130,11 @@ section {
     margin: 1em;
     transform: scale(-1, 1);
     transform: scale(1, -1);
+    transform: rotate(180deg);
     width: 16px;
     height: 16px;
     position:absolute; 
-    left:110px;
+    left:105px;
     top:170px
 }
 
@@ -132,10 +143,11 @@ section {
     margin: 1em;
     transform: scale(-1, 1);
     transform: scale(1, -1);
+    transform: rotate(180deg);
     width: 16px;
     height: 16px;
     position:absolute; 
-    left:110px;
+    left:105px;
     top:170px;
     color: red;
 }
@@ -145,10 +157,11 @@ section {
     margin: 1em;
     transform: scale(-1, 1);
     transform: scale(1, -1);
+    transform: rotate(180deg);
     width: 16px;
     height: 16px;
     position:absolute; 
-    left:110px;
+    left:105px;
     top:170px;
 }
 
