@@ -1,15 +1,15 @@
 $('.stack').click(function() {
-    $(".card").each(function(e) {
+    $(".whiteCard").each(function(e) {
       setTimeout(function() {
-        $(".card").eq(e).attr("class", "card");
+        $(".whiteCard").eq(e).attr("class", "whiteCard");
       }, e * 150)
     });
   });
   
   $('.spread').click(function() {
-    $(".card").each(function(e) {
+    $(".whiteCard").each(function(e) {
       setTimeout(function() {
-        $(".card").eq(e).attr("class", "card ani" + e);
+        $(".whiteCard").eq(e).attr("class", "whiteCard ani" + e);
       }, e * 150)
     });
   });

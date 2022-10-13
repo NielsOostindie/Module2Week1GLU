@@ -47,7 +47,7 @@ section {
     padding-left: 0;
   }
   
-  .card{
+  .whiteCard{
     transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     perspective: 1000;
     -ms-transform: perspective(1000px);
@@ -65,46 +65,306 @@ section {
     bottom: 0;
     margin: 30px 0 15px 15px;
   }
-  .card:nth-child(5n) {
+  .whiteCard:nth-child(5n) {
     margin-right: 0;
   }
-  .card.ani0 {
-    right: 948px;
-    bottom: 326px;
+  .whiteCard.ani0 {
+    right: 0px;
+    bottom: 0px;
+    z-index: 30;
   }
-  .card.ani1 {
-    right: 711px;
-    bottom: 326px;
+  .whiteCard.ani1 {
+    right: 110px;
+    bottom: 0px;
+    z-index: 29;
   }
-  .card.ani2 {
-    right: 474px;
-    bottom: 326px;
+  .whiteCard.ani2 {
+    right: 180px;
+    bottom: 0px;
+    z-index: 28;
   }
-  .card.ani3 {
-    right: 237px;
-    bottom: 326px;
+  .whiteCard.ani3 {
+    right: 250px;
+    bottom: 0px;
+    z-index: 27;
   }
-  .card.ani4 {
+  .whiteCard.ani4 {
+    right: 320px;
+    bottom: 0px;
+    z-index: 26;
+  }
+  .whiteCard.ani5 {
+    right: 390px;
+    bottom: 0;
+    z-index: 25;
+  }
+  .whiteCard.ani6 {
+    right: 460px;
+    bottom: 0;
+    z-index: 24;
+  }
+  .whiteCard.ani7 {
+    right: 530px;
+    bottom: 0;
+    z-index: 23;
+  }
+  .whiteCard.ani8 {
+    right: 600px;
+    bottom: 0;
+    z-index: 22;
+  }
+
+  .whiteCard.ani9 {
+    right: 670px;
+    bottom: 0px;
+    z-index: 21;
+  }
+
+  .whiteCard.ani10{
+    right: 740px;
+    bottom: 0;
+    z-index: 20;
+  }
+
+  .whiteCard.ani11{
+    right: 810px;
+    bottom: 0;
+    z-index: 19;
+  }
+
+  .whiteCard.ani12{
+    right: 880px;
+    bottom: 0;
+    z-index: 18;
+  }
+
+  .whiteCard.ani13 {
+    right: 0px;
+    bottom: 0px;
+    z-index: 29;
+  }
+  .whiteCard.ani14 {
+    right: 110px;
+    bottom: 0px;
+    z-index: 28;
+  }
+  .whiteCard.ani15 {
+    right: 180px;
+    bottom: 0px;
+    z-index: 27;
+  }
+  .whiteCard.ani16 {
+    right: 250px;
+    bottom: 0px;
+    z-index: 26;
+  }
+  .whiteCard.ani17 {
+    right: 320px;
+    bottom: 0;
+    z-index: 25;
+  }
+  .whiteCard.ani18 {
+    right: 390px;
+    bottom: 0;
+    z-index: 24;
+  }
+  .whiteCard.ani19 {
+    right: 460px;
+    bottom: 0;
+    z-index: 23;
+  }
+  .whiteCard.ani20 {
+    right: 530px;
+    bottom: 0;
+    z-index: 22;
+  }
+
+  .whiteCard.ani21 {
+    right: 600px;
+    bottom: 0px;
+    z-index: 21;
+  }
+
+  .whiteCard.ani22{
+    right: 670px;
+    bottom: 0;
+    z-index: 20;
+  }
+
+  .whiteCard.ani23{
+    right: 740px;
+    bottom: 0;
+    z-index: 19;
+  }
+
+  .whiteCard.ani24{
+    right: 810px;
+    bottom: 0;
+    z-index: 18;
+  }
+
+  .whiteCard.ani25{
+    right: 880px;
+    bottom: 0;
+    z-index: 17;
+  }
+
+  .whiteCard.ani26{
     right: 0;
-    bottom: 326px;
-  }
-  .card.ani5 {
-    right: 948px;
     bottom: 0;
+    z-index: 30;
   }
-  .card.ani6 {
-    right: 711px;
+
+  .whiteCard.ani27{
+    right: 110px;
     bottom: 0;
-  }
-  .card.ani7 {
-    right: 474px;
-    bottom: 0;
-  }
-  .card.ani8 {
-    right: 237px;
-    bottom: 0;
+    z-index: 29;
   }
   
+  .whiteCard.ani28{
+    right: 180px;
+    bottom: 0;
+    z-index: 28;
+  }
+
+  .whiteCard.ani29{
+    right: 250px;
+    bottom: 0;
+    z-index: 27;
+  }
+
+  .whiteCard.ani30{
+    right: 320px;
+    bottom: 0;
+    z-index: 26;
+  }
+
+  .whiteCard.ani31{
+    right: 390px;
+    bottom: 0;
+    z-index: 25;
+  }
+
+  .whiteCard.ani32{
+    right: 460px;
+    bottom: 0;
+    z-index: 24;
+  }
+
+  .whiteCard.ani33{
+    right: 530px;
+    bottom: 0;
+    z-index: 23;
+  }
+
+  .whiteCard.ani34{
+    right: 600px;
+    bottom: 0;
+    z-index: 22;
+  }
+
+  .whiteCard.ani35{
+    right: 670px;
+    bottom: 0;
+    z-index: 21;
+  }
+
+  .whiteCard.ani36{
+    right: 740px;
+    bottom: 0;
+    z-index: 20;
+  }
+
+  .whiteCard.ani37{
+    right: 810px;
+    bottom: 0;
+    z-index: 19;
+  }
+
+  .whiteCard.ani38{
+    right: 880px;
+    bottom: 0;
+    z-index: 18;
+  }
+
+  .whiteCard.ani39{
+    right: 0px;
+    bottom: 0;
+    z-index: 30;
+  }
+
+  .whiteCard.ani40{
+    right: 110px;
+    bottom: 0;
+    z-index: 29;
+  }
+
+  .whiteCard.ani41{
+    right: 180px;
+    bottom: 0;
+    z-index: 28;
+  }
+
+  .whiteCard.ani42{
+    right: 250px;
+    bottom: 0;
+    z-index: 27;
+  }
+
+  .whiteCard.ani43{
+    right: 320px;
+    bottom: 0;
+    z-index: 26;
+  }
+
+  .whiteCard.ani44{
+    right: 390px;
+    bottom: 0;
+    z-index: 25;
+  }
+
+  .whiteCard.ani45{
+    right: 460px;
+    bottom: 0;
+    z-index: 24;
+  }
+
+  .whiteCard.ani46{
+    right: 530px;
+    bottom: 0;
+    z-index: 23;
+  }
+
+  .whiteCard.ani47{
+    right: 600px;
+    bottom: 0;
+    z-index: 22;
+  }
+
+  .whiteCard.ani48{
+    right: 670px;
+    bottom: 0;
+    z-index: 21;
+  }
+
+  .whiteCard.ani49{
+    right: 740px;
+    bottom: 0;
+    z-index: 20;
+  }
+
+  .whiteCard.ani50{
+    right: 810px;
+    bottom: 0;
+    z-index: 19;
+  }
+
+  .whiteCard.ani51{
+    right: 880px;
+    bottom: 0;
+    z-index: 18;
+  }
+
 
 .klaverenCard{
     margin: 0px -40px;
