@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CoolBlue</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="navBar">
+      <div id="topBar"></div>
+      <div id="coolBlue">
+        <p class="logoText">cool</p>
+        <p class="logoText">blue</p>
+      </div>
+      <div id="whiteSpace"></div>
+    </div>
+
+    <div id="content">
+      <h1 id="userInfo">JE GEGEVENS<span class="dot">.</span></h1>
+      <h2>Wat moet er op het factuur staan?</h2>
+
+      <form>
+        <div class="array">
+          <p>Type bestelling</p>
+          <input type="radio" name="private" id="private" /> Particulier
+          <input type="radio" name="business" /> Zakkelijk
+        </div>
+
+        <div class="array">
+          <p>Aanhef</p>
+          <input type="radio" name="dhr" /> Dhr.
+          <input type="radio" name="mevr" /> Mevr.
+        </div>
+
+        <div class="array">
+          <p>Naam</p>
+          <input
+            type="text"
+            placeholder="Voornaam"
+            name="firstName"
+            id="firstname"
+          />
+          <input
+            type="text"
+            placeholder="Tussenv."
+            name="insertion"
+            id="insertion"
+          />
+          <input
+            type="text"
+            placeholder="Achternaam"
+            name="lastName"
+            id="lastName"
+          />
+        </div>
+
+        <div class="array">
+          <p>Postcode</p>
+          <input
+            type="text"
+            name="postalcode"
+            placeholder="1234AB"
+            id="postalCode"
+          />
+        </div>
+
+        <div class="array">
+          <p>Huisnummer</p>
+          <input
+            type="text"
+            placeholder="Nr."
+            name="houseNumber"
+            id="houseNumber"
+          />
+          <input
+            type="text"
+            placeholder="Toev."
+            name="houseLetter"
+            id="houseLetter"
+          />
+        </div>
+
+        <div class="array">
+          <p>Land</p>
+          <p id="landPlek">
+            Nederland <span id="darker"> > </span>
+            <span id="land">in België laten bezorgen</span>
+          </p>
+        </div>
+        <br />
+        <div class="array">
+          <p>Afleveradres</p>
+          <input type="radio" name="oldAdress" />Op bovenstaande adres bezorgen
+          <input type="radio" name="newAdress" />op ander adres bezorgen
+        </div>
+
+        <div class="array">
+          <img src="blueDot.png" class="blueDot" />
+          <p>E-mailadres</p>
+          <input type="text" id="email" />
+        </div>
+        <div class="array">
+          <img src="blueDot.png" class="blueDot" />
+          <p>Telefoonummer</p>
+          <input type="text" />
+        </div>
+        <div class="array">
+          <img src="blueDot.png" class="blueDot" />
+          <p>Geboortedatum</p>
+          <input type="text" placeholder="dd-mm-jjjj" />
+        </div>
+        <div class="array">
+          <img src="blueDot.png" class="blueDot" />
+          <p>Verzendewijze factuur</p>
+          <input type="radio" name="invoiceEmail" /> Factuur per e-mail
+          <input type="radio" name="invoicePrint" /> Factuur geprint bij de
+          bestelling
+        </div>
+        <div class="array">
+          <img src="blueDot.png" class="blueDot" />
+          <p>Nieuwsbrief</p>
+          <input type="checkbox" name="news" />
+        </div>
+        <div class="array">
+          <img src="blueDot.png" class="blueDot" />
+          <p>Kleur verpakking</p>
+          <input type="color" id="color" />
+        </div>
+      </form>
+      <h3 id="saveUserInfo">BEWAAR JE GEGEVENS<span class="dot">.</span></h3>
+      <h4>Handig voor de volgende keer.</h4>
+      <form>
+        <div class="array">
+          <img src="blueDot.png" class="blueDot" />
+          <p>Wachtwoord</p>
+          <input type="text" /><br />
+          <a>Minimaal 6 karakters.</a> <br />
+          <a> Verder doen we niet zo moeilijk.</a>
+        </div>
+        <div class="array">
+          <img src="blueDot.png" class="blueDot" />
+          <p>Wachtwoord bevestigen</p>
+          <input type="text" />
+        </div>
+      </form>
+
+      <div id="greyBar">
+     
+      </div>
+    </div>
+    <div id="footer">
+      <img src="phoneIcon.png" id="phoneIcon">
+      <h5>BEL 010 7988999<span class="dot">.</span></h5>
+      <h6>Voor acute service.</h6>
+      <br>
+      <a id="dikkeP">Onze klantenservice is nu open.</a>
+      <p>Je kunt ons 7 dagen per week bereiken. Vandaag is</p>
+      <p>de klantenservice tot 23:59 uur open.</p>
+
+      <div id="service">
+        <a id="dikkeService">SERVICE<span class="dot">.</span></a>
+        <br>
+        <a id="onderdeel">Onderdeel van Coolblue.</a>
+        <p>Gratis verzenden & retourneren</p>
+        <p>Voor 23:59 besteld, morgen in huis</p>
+        <p>Track & Trace, volg je pakket</p>
+        <p>Statusupdates via e-mail</p>
+        <p>Winkels in Amsterdam, Eindhoven, Grtoningen, Rotterdam en Utrecht</p>
+
+      </div>
+      
+    </div>
+      
+
+    <div id="logos">
+      <img src="PayPalLogo.png" id="payPal" />
+      <img src="idealLogo.png" id="iDeal" />
+      <img src="masterCardLogo.png" id="masterCard" />
+      <img src="visaLogo.png" id="visa" />
+      <img src="postNLlogo.png" id="postNl" />
+      <img src="thuisWinkel.png" id="thuisWinkel" />
+    </div>
+  </body>
+</html>
